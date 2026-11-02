@@ -35,42 +35,62 @@
 
 加载插件后主界面如图所示。可以拖拽、点击、右键导入你制作好的 LRC 歌词来进行加载。
 
-[图文编号-C01]
+<img src="docs/images/c01.png" width="700" alt="C01 导入界面">
 
 <a id="cn-起点定位"></a>
 #### 起点定位
 
-加载歌词完毕后，需要手动定位你当前音频文件或者你当前歌词文件的开头位置，如图 [图文编号-C02]。这样可以保证你播放音频时歌词 100% 同步上。
+加载歌词完毕后，需要手动定位你当前音频文件或者你当前歌词文件的开头位置，如图所示。这样可以保证你播放音频时歌词 100% 同步上。
+
+<img src="docs/images/c02.png" width="700" alt="C02 起点定位">
 
 <a id="cn-延迟调整"></a>
 #### 延迟调整
 
-如果发现点击「起点」定位后依然存在一些延迟，可以点击 **+10ms** 或 **-10ms** 来调整延迟时间 [图文编号-C03]，也可以通过拖动滑块或者双击延迟时间进行手动输入延迟设置 [图文编号-C04]。如果你发现滑块调整过度或者想要恢复 0s 的延迟调整，双击滑块即可复位为 0。
+如果发现点击「起点」定位后依然存在一些延迟，可以点击 **+10ms** 或 **-10ms** 来调整延迟时间，也可以通过拖动滑块或者双击延迟时间进行手动输入延迟设置。如果你发现滑块调整过度或者想要恢复 0s 的延迟调整，双击滑块即可复位为 0。
+
+<img src="docs/images/c03.png" width="700" alt="C03 延迟按钮">
+
+<img src="docs/images/c04.png" width="700" alt="C04 延迟滑块">
 
 <a id="cn-跟随原始lrc歌词时间"></a>
 #### 跟随（原始LRC歌词时间）
 
-如果你想让 LRC 从头最初开始、按原始的 LRC 时间进行播放歌词预览，点击「跟随」按钮即可让它恢复全局，如图 [图文编号-C05]。
+如果你想让 LRC 从头最初开始、按原始的 LRC 时间进行播放歌词预览，点击「跟随」按钮即可让它恢复全局，如图所示。
+
+<img src="docs/images/c05.png" width="700" alt="C05 跟随按钮">
 
 <a id="cn-局域网功能"></a>
 #### 局域网功能
 
-局域网共享功能，能让你或者现场的朋友使用平板、手机等智能设备、电脑来进行局域网连接或开放端口映射远程连接。只需要扫描二维码（QR码）或复制插件局域网的链接，即可打开局域网页面来实时查看歌词 [图文编号-C06]。独立网页设置四国语言，独立设备延迟调整，可以随时校准；插件和局域网都可以缩放歌词大小 [图文编号-C07]。
+局域网共享功能，能让你或者现场的朋友使用平板、手机等智能设备、电脑来进行局域网连接或开放端口映射远程连接。只需要扫描二维码（QR码）或复制插件局域网的链接，即可打开局域网页面来实时查看歌词。独立网页设置四国语言，独立设备延迟调整，可以随时校准；插件和局域网都可以缩放歌词大小。
+
+<img src="docs/images/c06.png" width="700" alt="C06 局域网二维码">
+
+<img src="docs/images/c07.png" width="700" alt="C07 歌词缩放">
 
 <a id="cn-高亮颜色设置"></a>
 #### 高亮颜色设置
 
-点击左上角的颜色，或者右键呼出菜单中的「修改歌词颜色」，即可修改歌词的高亮颜色（默认为白色高亮）[图文编号-C08]。
+点击左上角的颜色，或者右键呼出菜单中的「修改歌词颜色」，即可修改歌词的高亮颜色（默认为白色高亮）。
+
+<img src="docs/images/c08.png" width="700" alt="C08 高亮颜色">
 
 <a id="cn-语言设置"></a>
 #### 语言设置
 
-点击「语言：你设置的语言」即可调整其他语言设置 [图文编号-C09]。初始语言与局域网同步语言，但提供独立的局域网语言修改设置 [图文编号-C10]。
+点击「语言：你设置的语言」即可调整其他语言设置。初始语言与局域网同步语言，但提供独立的局域网语言修改设置。
+
+<img src="docs/images/c09.png" width="700" alt="C09 语言菜单">
+
+<img src="docs/images/c10.png" width="700" alt="C10 局域网语言">
 
 <a id="cn-清空歌词"></a>
 #### 清空歌词
 
-点击「清空」即可清除当前加载的歌词。如图 [图文编号-C11]。
+点击「清空」即可清除当前加载的歌词。如图所示。
+
+<img src="docs/images/c11.png" width="700" alt="C11 清空按钮">
 
 [⬆ 返回顶部](#soez-lrc-plugin)
 
@@ -107,42 +127,62 @@ After installing the plugin, make sure your host software (DAW: Digital Audio Wo
 
 After loading the plugin, the main interface is shown below. You can drag, click, or right-click to import the LRC lyrics you have created.
 
-[Image No.-E01]
+<img src="docs/images/e01.png" width="700" alt="E01 Import interface">
 
 <a id="en-start-point-positioning"></a>
 #### Start-Point Positioning
 
-After loading the lyrics, you need to manually position the beginning of your current audio file or lyrics file, as shown in [Image No.-E02]. This ensures the lyrics are 100% synced when you play the audio.
+After loading the lyrics, you need to manually position the beginning of your current audio file or lyrics file, as shown below. This ensures the lyrics are 100% synced when you play the audio.
+
+<img src="docs/images/e02.png" width="700" alt="E02 Start-point positioning">
 
 <a id="en-delay-adjustment"></a>
 #### Delay Adjustment
 
-If you still notice some delay after clicking "Start Point", you can click **+10ms** or **-10ms** to adjust the delay time [Image No.-E03]. You can also drag the slider or double-click the delay time to manually enter a delay value [Image No.-E04]. If you've over-adjusted the slider or want to restore the 0s delay, simply double-click the slider to reset it to 0.
+If you still notice some delay after clicking "Start Point", you can click **+10ms** or **-10ms** to adjust the delay time. You can also drag the slider or double-click the delay time to manually enter a delay value. If you've over-adjusted the slider or want to restore the 0s delay, simply double-click the slider to reset it to 0.
+
+<img src="docs/images/e03.png" width="700" alt="E03 Delay buttons">
+
+<img src="docs/images/e04.png" width="700" alt="E04 Delay slider">
 
 <a id="en-follow-original-lrc-lyrics-time"></a>
 #### Follow (Original LRC Lyrics Time)
 
-If you want the lyrics preview to start from the very beginning using the original LRC timing, click the "Follow" button to restore it globally, as shown in [Image No.-E05].
+If you want the lyrics preview to start from the very beginning using the original LRC timing, click the "Follow" button to restore it globally, as shown below.
+
+<img src="docs/images/e05.png" width="700" alt="E05 Follow button">
 
 <a id="en-lan-function"></a>
 #### LAN Function
 
-The LAN sharing feature lets you or your friends on site use tablets, phones, other smart devices, or computers to connect over the LAN or via open port mapping for remote connections. Just scan the QR code or copy the plugin's LAN link to open the LAN page and view lyrics in real time [Image No.-E06]. The standalone web page supports four language settings and per-device delay adjustment that can be calibrated at any time. Both the plugin and the LAN page allow you to scale the lyric size [Image No.-E07].
+The LAN sharing feature lets you or your friends on site use tablets, phones, other smart devices, or computers to connect over the LAN or via open port mapping for remote connections. Just scan the QR code or copy the plugin's LAN link to open the LAN page and view lyrics in real time. The standalone web page supports four language settings and per-device delay adjustment that can be calibrated at any time. Both the plugin and the LAN page allow you to scale the lyric size.
+
+<img src="docs/images/e06.png" width="700" alt="E06 LAN QR code">
+
+<img src="docs/images/e07.png" width="700" alt="E07 Lyrics scaling">
 
 <a id="en-highlight-color-settings"></a>
 #### Highlight Color Settings
 
-Click the color in the upper-left corner, or use "Edit Lyrics Color" in the right-click menu to change the lyric highlight color (default is white highlight) [Image No.-E08].
+Click the color in the upper-left corner, or use "Edit Lyrics Color" in the right-click menu to change the lyric highlight color (default is white highlight).
+
+<img src="docs/images/e08.png" width="700" alt="E08 Highlight color">
 
 <a id="en-language-settings"></a>
 #### Language Settings
 
-Click "Language: your current language" to adjust other language settings [Image No.-E09]. The initial language is synced with the LAN language, but a separate LAN language setting is also provided [Image No.-E10].
+Click "Language: your current language" to adjust other language settings. The initial language is synced with the LAN language, but a separate LAN language setting is also provided.
+
+<img src="docs/images/e09.png" width="700" alt="E09 Language menu">
+
+<img src="docs/images/e10.png" width="700" alt="E10 LAN language">
 
 <a id="en-clear-lyrics"></a>
 #### Clear Lyrics
 
-Click "Clear" to remove the currently loaded lyrics. As shown in [Image No.-E11].
+Click "Clear" to remove the currently loaded lyrics. As shown below.
+
+<img src="docs/images/e11.png" width="700" alt="E11 Clear button">
 
 [⬆ Back to top](#soez-lrc-plugin)
 
@@ -179,42 +219,62 @@ Click "Clear" to remove the currently loaded lyrics. As shown in [Image No.-E11]
 
 プラグインを読み込んだ後のメイン画面は次のとおりです。ドラッグ、クリック、右クリックメニューからインポートして、作成した LRC 歌詞を読み込めます。
 
-[画像番号-J01]
+<img src="docs/images/j01.png" width="700" alt="J01 読み込み画面">
 
 <a id="jp-開始位置の指定"></a>
 #### 開始位置の指定
 
-歌詞を読み込んだ後、現在のオーディオファイルまたは歌詞ファイルの先頭位置を手動で指定する必要があります。[画像番号-J02] のとおりです。これにより、オーディオ再生時に歌詞が 100% 同期されます。
+歌詞を読み込んだ後、現在のオーディオファイルまたは歌詞ファイルの先頭位置を手動で指定する必要があります。以下のとおりです。これにより、オーディオ再生時に歌詞が 100% 同期されます。
+
+<img src="docs/images/j02.png" width="700" alt="J02 開始位置の指定">
 
 <a id="jp-遅延調整"></a>
 #### 遅延調整
 
-「開始位置」を指定した後も遅延が残る場合は、**+10ms** または **-10ms** をクリックして遅延時間を調整できます [画像番号-J03]。また、スライダーをドラッグするか、遅延時間をダブルクリックして手動で遅延設定を入力することもできます [画像番号-J04]。スライダーを調整しすぎた場合や 0s の遅延に戻したい場合は、スライダーをダブルクリックすると 0 にリセットされます。
+「開始位置」を指定した後も遅延が残る場合は、**+10ms** または **-10ms** をクリックして遅延時間を調整できます。また、スライダーをドラッグするか、遅延時間をダブルクリックして手動で遅延設定を入力することもできます。スライダーを調整しすぎた場合や 0s の遅延に戻したい場合は、スライダーをダブルクリックすると 0 にリセットされます。
+
+<img src="docs/images/j03.png" width="700" alt="J03 遅延ボタン">
+
+<img src="docs/images/j04.png" width="700" alt="J04 遅延スライダー">
 
 <a id="jp-フォロー元のlrc歌詞タイム"></a>
 #### フォロー（元のLRC歌詞タイム）
 
-LRC を最初から元の LRC 時間で歌詞プレビューを再生したい場合は、「フォロー」ボタンをクリックするとグローバルに戻ります。[画像番号-J05] のとおりです。
+LRC を最初から元の LRC 時間で歌詞プレビューを再生したい場合は、「フォロー」ボタンをクリックするとグローバルに戻ります。以下のとおりです。
+
+<img src="docs/images/j05.png" width="700" alt="J05 フォローボタン">
 
 <a id="jp-lan機能"></a>
 #### LAN機能
 
-LAN 共有機能により、ご本人や会場の友人がタブレット、スマートフォン、その他のスマートデバイス、パソコンで LAN 接続またはポートマッピングを開放してリモート接続できます。QR コードをスキャンするかプラグインの LAN リンクをコピーするだけで、LAN ページを開いてリアルタイムで歌詞を表示できます [画像番号-J06]。独立した Web ページで 4 言語設定、デバイスごとの遅延調整が可能で、いつでもキャリブレーションできます。プラグインと LAN ページの両方で歌詞サイズを拡大縮小できます [画像番号-J07]。
+LAN 共有機能により、ご本人や会場の友人がタブレット、スマートフォン、その他のスマートデバイス、パソコンで LAN 接続またはポートマッピングを開放してリモート接続できます。QR コードをスキャンするかプラグインの LAN リンクをコピーするだけで、LAN ページを開いてリアルタイムで歌詞を表示できます。独立した Web ページで 4 言語設定、デバイスごとの遅延調整が可能で、いつでもキャリブレーションできます。プラグインと LAN ページの両方で歌詞サイズを拡大縮小できます。
+
+<img src="docs/images/j06.png" width="700" alt="J06 LAN QRコード">
+
+<img src="docs/images/j07.png" width="700" alt="J07 歌詞サイズ調整">
 
 <a id="jp-ハイライト色の設定"></a>
 #### ハイライト色の設定
 
-左上の色をクリックするか、右クリックメニューの「歌詞の色を変更」をクリックすると、歌詞のハイライト色を変更できます（デフォルトは白いハイライト）[画像番号-J08]。
+左上の色をクリックするか、右クリックメニューの「歌詞の色を変更」をクリックすると、歌詞のハイライト色を変更できます（デフォルトは白いハイライト）。
+
+<img src="docs/images/j08.png" width="700" alt="J08 ハイライト色">
 
 <a id="jp-言語設定"></a>
 #### 言語設定
 
-「言語：設定中の言語」をクリックすると、他の言語設定を調整できます [画像番号-J09]。初期言語は LAN 言語と同期しますが、独立した LAN 言語変更設定も用意されています [画像番号-J10]。
+「言語：設定中の言語」をクリックすると、他の言語設定を調整できます。初期言語は LAN 言語と同期しますが、独立した LAN 言語変更設定も用意されています。
+
+<img src="docs/images/j09.png" width="700" alt="J09 言語メニュー">
+
+<img src="docs/images/j10.png" width="700" alt="J10 LAN言語">
 
 <a id="jp-歌詞のクリア"></a>
 #### 歌詞のクリア
 
-「クリア」をクリックすると、現在読み込まれている歌詞を消去できます。[画像番号-J11] のとおりです。
+「クリア」をクリックすると、現在読み込まれている歌詞を消去できます。以下のとおりです。
+
+<img src="docs/images/j11.png" width="700" alt="J11 クリアボタン">
 
 [⬆ トップへ戻る](#soez-lrc-plugin)
 
@@ -251,42 +311,62 @@ LAN 共有機能により、ご本人や会場の友人がタブレット、ス�
 
 플러그인을 로드한 후 메인 화면은 다음과 같습니다. 드래그, 클릭, 우클릭 메뉴에서 가져오기를 통해 제작한 LRC 가사를 로드할 수 있습니다.
 
-[이미지 번호-K01]
+<img src="docs/images/k01.png" width="700" alt="K01 가져오기 화면">
 
 <a id="kr-시작점-지정"></a>
 #### 시작점 지정
 
-가사를 로드한 후 현재 오디오 파일 또는 가사 파일의 시작 위치를 수동으로 지정해야 합니다. [이미지 번호-K02]와 같습니다. 이렇게 하면 오디오 재생 시 가사가 100% 동기화됩니다.
+가사를 로드한 후 현재 오디오 파일 또는 가사 파일의 시작 위치를 수동으로 지정해야 합니다. 아래와 같습니다. 이렇게 하면 오디오 재생 시 가사가 100% 동기화됩니다.
+
+<img src="docs/images/k02.png" width="700" alt="K02 시작점 지정">
 
 <a id="kr-지연-조정"></a>
 #### 지연 조정
 
-"시작점"을 지정한 후에도 지연이 남아 있다면 **+10ms** 또는 **-10ms**를 클릭하여 지연 시간을 조정할 수 있습니다 [이미지 번호-K03]. 슬라이더를 드래그하거나 지연 시간을 더블클릭하여 수동으로 지연 설정을 입력할 수도 있습니다 [이미지 번호-K04]. 슬라이더를 과도하게 조정했거나 0s 지연으로 되돌리고 싶다면 슬라이더를 더블클릭하면 0으로 초기화됩니다.
+"시작점"을 지정한 후에도 지연이 남아 있다면 **+10ms** 또는 **-10ms**를 클릭하여 지연 시간을 조정할 수 있습니다. 슬라이더를 드래그하거나 지연 시간을 더블클릭하여 수동으로 지연 설정을 입력할 수도 있습니다. 슬라이더를 과도하게 조정했거나 0s 지연으로 되돌리고 싶다면 슬라이더를 더블클릭하면 0으로 초기화됩니다.
+
+<img src="docs/images/k03.png" width="700" alt="K03 지연 버튼">
+
+<img src="docs/images/k04.png" width="700" alt="K04 지연 슬라이더">
 
 <a id="kr-팔로우원본-lrc-가사-시간"></a>
 #### 팔로우(원본 LRC 가사 시간)
 
-LRC를 처음부터 원본 LRC 시간으로 가사 미리보기를 재생하고 싶다면 "팔로우" 버튼을 클릭하면 전역으로 복원됩니다. [이미지 번호-K05]와 같습니다.
+LRC를 처음부터 원본 LRC 시간으로 가사 미리보기를 재생하고 싶다면 "팔로우" 버튼을 클릭하면 전역으로 복원됩니다. 아래와 같습니다.
+
+<img src="docs/images/k05.png" width="700" alt="K05 팔로우 버튼">
 
 <a id="kr-lan-기능"></a>
 #### LAN 기능
 
-LAN 공유 기능을 통해 본인이나 현장의 친구가 태블릿, 스마트폰, 기타 스마트 기기, 컴퓨터로 LAN 연결 또는 포트 매핑을 열어 원격 연결할 수 있습니다. QR 코드를 스캔하거나 플러그인의 LAN 링크를 복사하기만 하면 LAN 페이지를 열어 실시간으로 가사를 볼 수 있습니다 [이미지 번호-K06]. 독립 웹 페이지에서 4개 언어 설정, 기기별 지연 조정이 가능하며 언제든지 캘리브레이션할 수 있습니다. 플러그인과 LAN 페이지 모두에서 가사 크기를 조정할 수 있습니다 [이미지 번호-K07].
+LAN 공유 기능을 통해 본인이나 현장의 친구가 태블릿, 스마트폰, 기타 스마트 기기, 컴퓨터로 LAN 연결 또는 포트 매핑을 열어 원격 연결할 수 있습니다. QR 코드를 스캔하거나 플러그인의 LAN 링크를 복사하기만 하면 LAN 페이지를 열어 실시간으로 가사를 볼 수 있습니다. 독립 웹 페이지에서 4개 언어 설정, 기기별 지연 조정이 가능하며 언제든지 캘리브레이션할 수 있습니다. 플러그인과 LAN 페이지 모두에서 가사 크기를 조정할 수 있습니다.
+
+<img src="docs/images/k06.png" width="700" alt="K06 LAN QR 코드">
+
+<img src="docs/images/k07.png" width="700" alt="K07 가사 크기 조정">
 
 <a id="kr-하이라이트-색상-설정"></a>
 #### 하이라이트 색상 설정
 
-왼쪽 상단의 색상을 클릭하거나 우클릭 메뉴에서 "가사 색상 변경"을 클릭하면 가사 하이라이트 색상을 변경할 수 있습니다(기본값은 흰색 하이라이트) [이미지 번호-K08].
+왼쪽 상단의 색상을 클릭하거나 우클릭 메뉴에서 "가사 색상 변경"을 클릭하면 가사 하이라이트 색상을 변경할 수 있습니다(기본값은 흰색 하이라이트).
+
+<img src="docs/images/k08.png" width="700" alt="K08 하이라이트 색상">
 
 <a id="kr-언어-설정"></a>
 #### 언어 설정
 
-"언어: 설정된 언어"를 클릭하면 다른 언어 설정을 조정할 수 있습니다 [이미지 번호-K09]. 초기 언어는 LAN 언어와 동기화되지만 독립적인 LAN 언어 변경 설정도 제공됩니다 [이미지 번호-K10].
+"언어: 설정된 언어"를 클릭하면 다른 언어 설정을 조정할 수 있습니다. 초기 언어는 LAN 언어와 동기화되지만 독립적인 LAN 언어 변경 설정도 제공됩니다.
+
+<img src="docs/images/k09.png" width="700" alt="K09 언어 메뉴">
+
+<img src="docs/images/k10.png" width="700" alt="K10 LAN 언어">
 
 <a id="kr-가사-지우기"></a>
 #### 가사 지우기
 
-"지우기"를 클릭하면 현재 로드된 가사를 지울 수 있습니다. [이미지 번호-K11]과 같습니다.
+"지우기"를 클릭하면 현재 로드된 가사를 지울 수 있습니다. 아래와 같습니다.
+
+<img src="docs/images/k11.png" width="700" alt="K11 지우기 버튼">
 
 [⬆ 맨 위로](#soez-lrc-plugin)
 
