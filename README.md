@@ -19,6 +19,20 @@
 
 # 🇨🇳 SOEZ-LRC Plugin（中文）
 
+> [!WARNING]
+> 💰 **本插件完全免费！** 如果你在任何地方付费购买了它，无论哪个平台，请立即申请退款。
+
+> [!NOTE]
+> 🪟 当前版本**仅完成 Windows 开发**，🍎 **macOS 版仍在开发中**，还需等待一段时间。
+>
+> 想在 macOS 上提前尝鲜？可以下载源代码工程，通过 JUCE 生成 Xcode 工程后**自行编译并签名**使用。目前开发主要卡在 macOS 的**签名环节**。
+
+**📜 开源与使用条款**
+
+- ✅ 可下载源代码进行**二次开发**
+- ❌ **禁止**商业闭源行为
+- ⚖️ 请遵守 **GNU Affero General Public License v3.0** 开源协议
+
 > **SOEZ-LRC** 是一款可加载于 DAW 的多功能 LRC 歌词插件，让你在录音翻唱、舞台演出时像用 QQ 音乐 / Apple Music 一样查看歌词。
 >
 > - 内置 **中 / 英 / 日 / 韩** 四语言（默认中文）
@@ -192,6 +206,20 @@
 <a id="lang-en"></a>
 
 # 🇬🇧 SOEZ-LRC Plugin (English)
+
+> [!WARNING]
+> 💰 **This plugin is 100% FREE!** If you paid for it anywhere — on any platform — please request a refund immediately.
+
+> [!NOTE]
+> 🪟 The current release **only supports Windows**. 🍎 **The macOS version is still in development** and will take some time.
+>
+> Want to try it on macOS early? Download the source project, generate an Xcode project via JUCE, then **compile and sign it yourself**. Development is currently stuck on macOS **code signing**.
+
+**📜 Open-Source & Usage Terms**
+
+- ✅ You may download the source code for **secondary development**
+- ❌ **Commercial closed-source use is prohibited**
+- ⚖️ Please comply with the **GNU Affero General Public License v3.0**
 
 > **SOEZ-LRC** is a multi-purpose LRC lyrics plugin that loads into your DAW, giving you a QQ Music / Apple Music–style lyric view during recording, cover singing, and live stage performances.
 >
@@ -367,6 +395,20 @@ Click **"Clear"** to remove the currently loaded lyrics, as shown below.
 
 # 🇯🇵 SOEZ-LRC Plugin（日本語）
 
+> [!WARNING]
+> 💰 **本プラグインは完全無料です！** もしどこか（どのプラットフォームでも）で購入された場合は、直ちに返金を申請してください。
+
+> [!NOTE]
+> 🪟 現在のバージョンは **Windows のみ対応**です。🍎 **macOS 版は開発中**で、もうしばらくお待ちください。
+>
+> macOS で先行して試したい場合は、ソースプロジェクトをダウンロードし、JUCE から Xcode プロジェクトを生成して**ご自身でコンパイル・署名**して使用できます。現在、macOS の**コード署名**で開発が止まっています。
+
+**📜 オープンソースと利用規約**
+
+- ✅ ソースコードをダウンロードして**二次開発**が可能
+- ❌ **商用クローズドソースは禁止**
+- ⚖️ **GNU Affero General Public License v3.0** を遵守してください
+
 > **SOEZ-LRC** は、DAW に読み込んで使用する多機能 LRC 歌詞プラグインです。QQ 音楽 / Apple Music のような歌詞画面を表示し、カバー歌唱の録音やステージ演奏時に便利です。
 >
 > - **4 言語 UI**：中国語 / 英語 / 日本語 / 韓国語（デフォルトは中国語）
@@ -540,6 +582,20 @@ LAN 共有機能により、ご本人や会場の友人が **タブレット・�
 <a id="lang-kr"></a>
 
 # 🇰🇷 SOEZ-LRC Plugin (한국어)
+
+> [!WARNING]
+> 💰 **본 플러그인은 100% 무료입니다!** 어디서든(어떤 플랫폼이든) 구매하셨다면 즉시 환불을 신청해 주세요.
+
+> [!NOTE]
+> 🪟 현재 버전은 **Windows만 지원**합니다. 🍎 **macOS 버전은 아직 개발 중**이며, 조금 더 기다려 주세요.
+>
+> macOS에서 먼저 사용해 보고 싶다면 소스 프로젝트를 다운로드하고, JUCE에서 Xcode 프로젝트를 생성한 뒤 **직접 컴파일 및 서명**하여 사용할 수 있습니다. 현재 개발은 macOS **코드 서명** 단계에서 막혀 있습니다.
+
+**📜 오픈소스 및 사용 약관**
+
+- ✅ 소스 코드를 다운로드하여 **2차 개발** 가능
+- ❌ **상업적 클로즈드 소스 사용 금지**
+- ⚖️ **GNU Affero General Public License v3.0** 준수
 
 > **SOEZ-LRC**는 DAW에 로드하여 사용하는 다기능 LRC 가사 플러그인입니다. QQ뮤직 / Apple Music과 같은 가사 화면을 제공하여 커버 녹음과 무대 공연 시 가사를 확인하기 편리합니다.
 >
