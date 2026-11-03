@@ -8,6 +8,7 @@
 [![Format](https://img.shields.io/badge/Format-VST3-green.svg)]()
 [![Framework](https://img.shields.io/badge/Framework-JUCE9-orange.svg)]()
 [![Languages](https://img.shields.io/badge/Languages-中·EN·日·한-purple.svg)]()
+[![AI Assisted](https://img.shields.io/badge/AI-DeepSeek·ChatGPT·Gemini-pink.svg)]()
 
 [🇨🇳 中文](#lang-cn) ｜ [🇬🇧 English](#lang-en) ｜ [🇯🇵 日本語](#lang-jp) ｜ [🇰🇷 한국어](#lang-kr)
 
@@ -19,13 +20,16 @@
 
 # 🇨🇳 SOEZ-LRC Plugin（中文）
 
-> [!WARNING] 
-> 💰 **警告！！！！本插件完全免费！** 如果你在任何地方付费购买了它，无论哪个平台，请立即申请退款。
+> [!WARNING]
+> 💰 **本插件完全免费！** 如果你在任何地方付费购买了它，无论哪个平台，请立即申请退款。
 
-> [!NOTE] 
+> [!NOTE]
 > 🪟 当前版本**仅完成 Windows 开发**，🍎 **macOS 版仍在开发中**，还需等待一段时间。
 >
 > 想在 macOS 上提前尝鲜？可以下载源代码工程，通过 JUCE 生成 Xcode 工程后**自行编译并签名**使用。目前开发主要卡在 macOS 的**签名环节**。
+
+> [!TIP]
+> 🤖 **本插件由 AI 协作开发**：**DeepSeek** · **ChatGPT** · **Gemini** 共同参与代码编写与文档本地化。
 
 **📜 开源与使用条款**
 
@@ -33,13 +37,14 @@
 - ❌ **禁止**商业闭源行为
 - ⚖️ 请遵守 **GNU Affero General Public License v3.0** 开源协议
 
+---
+
 > **SOEZ-LRC** 是一款可加载于 DAW 的多功能 LRC 歌词插件，让你在录音翻唱、舞台演出时像用 QQ 音乐 / Apple Music 一样查看歌词。
 >
 > - 内置 **中 / 英 / 日 / 韩** 四语言（默认中文）
 > - 支持 **局域网歌词预览**（平板、手机随时看词）
 > - 基于 **[JUCE9]** 开发的 **VST3** 插件
 >
-> ⚖️ 使用前请阅读开源协议：**GNU Affero General Public License v3.0**
 > 🚧 开发版本持续更新中，欢迎提交 bug 或建议反馈！
 
 ### 📖 使用说明
@@ -182,7 +187,7 @@
 
 - 拖动右侧长条即可缩放歌词
 - **双击 `1.00x`** 数字可自定义输入数值
-- **左键键双击** 长条即可恢复默认大小
+- **右键双击** 长条即可恢复默认大小
 
 **插件界面大小**
 
@@ -215,11 +220,16 @@
 >
 > Want to try it on macOS early? Download the source project, generate an Xcode project via JUCE, then **compile and sign it yourself**. Development is currently stuck on macOS **code signing**.
 
+> [!TIP]
+> 🤖 **This plugin is AI-assisted**: developed with **DeepSeek** · **ChatGPT** · **Gemini**.
+
 **📜 Open-Source & Usage Terms**
 
 - ✅ You may download the source code for **secondary development**
 - ❌ **Commercial closed-source use is prohibited**
 - ⚖️ Please comply with the **GNU Affero General Public License v3.0**
+
+---
 
 > **SOEZ-LRC** is a multi-purpose LRC lyrics plugin that loads into your DAW, giving you a QQ Music / Apple Music–style lyric view during recording, cover singing, and live stage performances.
 >
@@ -227,7 +237,6 @@
 > - **LAN lyrics preview** on tablets and phones
 > - **VST3** plugin built on **[JUCE9]**
 >
-> ⚖️ Licensed under **GNU Affero General Public License v3.0**
 > 🚧 Actively in development — bug reports and ideas are welcome!
 
 ### 📖 User Guide
@@ -403,11 +412,16 @@ Click **"Clear"** to remove the currently loaded lyrics, as shown below.
 >
 > macOS で先行して試したい場合は、ソースプロジェクトをダウンロードし、JUCE から Xcode プロジェクトを生成して**ご自身でコンパイル・署名**して使用できます。現在、macOS の**コード署名**で開発が止まっています。
 
+> [!TIP]
+> 🤖 **本プラグインは AI 協力で開発されています**：**DeepSeek** · **ChatGPT** · **Gemini** が共同で参加しています。
+
 **📜 オープンソースと利用規約**
 
 - ✅ ソースコードをダウンロードして**二次開発**が可能
 - ❌ **商用クローズドソースは禁止**
 - ⚖️ **GNU Affero General Public License v3.0** を遵守してください
+
+---
 
 > **SOEZ-LRC** は、DAW に読み込んで使用する多機能 LRC 歌詞プラグインです。QQ 音楽 / Apple Music のような歌詞画面を表示し、カバー歌唱の録音やステージ演奏時に便利です。
 >
@@ -415,7 +429,6 @@ Click **"Clear"** to remove the currently loaded lyrics, as shown below.
 > - **LAN 歌詞プレビュー**（タブレット・スマホ対応）
 > - **[JUCE9]** ベースの **VST3** プラグイン
 >
-> ⚖️ ライセンス：**GNU Affero General Public License v3.0**
 > 🚧 開発版は継続更新中です。バグ報告・アイデアは大歓迎！
 
 ### 📖 使用方法
@@ -587,9 +600,12 @@ LAN 共有機能により、ご本人や会場の友人が **タブレット・�
 > 💰 **본 플러그인은 100% 무료입니다!** 어디서든(어떤 플랫폼이든) 구매하셨다면 즉시 환불을 신청해 주세요.
 
 > [!NOTE]
-> 🪟 현재 버전은 **Windows만 지원**합니다. 🍎 **macOS 버전은 아직 개발 중**이며, 조금 더 기다려 주세요.
+> 🪟 현재 버전은 **Windows만 지원**합니다. 🎧 **macOS 버전은 아직 개발 중**이며, 조금 더 기다려 주세요.
 >
 > macOS에서 먼저 사용해 보고 싶다면 소스 프로젝트를 다운로드하고, JUCE에서 Xcode 프로젝트를 생성한 뒤 **직접 컴파일 및 서명**하여 사용할 수 있습니다. 현재 개발은 macOS **코드 서명** 단계에서 막혀 있습니다.
+
+> [!TIP]
+> 🤖 **본 플러그인은 AI 협업으로 개발되었습니다**: **DeepSeek** · **ChatGPT** · **Gemini** 공동 참여.
 
 **📜 오픈소스 및 사용 약관**
 
@@ -597,13 +613,14 @@ LAN 共有機能により、ご本人や会場の友人が **タブレット・�
 - ❌ **상업적 클로즈드 소스 사용 금지**
 - ⚖️ **GNU Affero General Public License v3.0** 준수
 
+---
+
 > **SOEZ-LRC**는 DAW에 로드하여 사용하는 다기능 LRC 가사 플러그인입니다. QQ뮤직 / Apple Music과 같은 가사 화면을 제공하여 커버 녹음과 무대 공연 시 가사를 확인하기 편리합니다.
 >
 > - **4개 언어 UI**: 중국어 / 영어 / 일본어 / 한국어 (기본값 중국어)
 > - **LAN 가사 미리보기** (태블릿·스마트폰 지원)
 > - **[JUCE9]** 기반 **VST3** 플러그인
 >
-> ⚖️ 라이선스: **GNU Affero General Public License v3.0**
 > 🚧 개발 버전은 지속적으로 업데이트 중입니다. 버그 제보와 아이디어를 환영합니다!
 
 ### 📖 사용 설명
@@ -773,6 +790,6 @@ LAN 공유 기능을 통해 본인과 현장의 친구가 **태블릿·스마트
 
 Licensed under the **GNU Affero General Public License v3.0** — see [LICENSE](LICENSE) for details.
 
-Made with ❤️ using [JUCE](https://juce.com/)
+Made with ❤️ using [JUCE](https://juce.com/) · AI-assisted by **DeepSeek** · **ChatGPT** · **Gemini**
 
 </div>
